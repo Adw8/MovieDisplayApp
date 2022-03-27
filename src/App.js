@@ -1,12 +1,10 @@
 import React from "react";
 import {useState, useEffect} from "react";
-import logo from './logo.svg';
 import './App.css';
 import Movie from "./components/Movie"
 
 
 const MovieApi = "https://movie-task.vercel.app/api/popular?page=1";
-const ImageApi = "https://image.tmdb.org/t/p/original";
 const SearchApi = "https://movie-task.vercel.app/api/search?page=1&query="
 
 
