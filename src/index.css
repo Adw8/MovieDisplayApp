@@ -50,7 +50,7 @@ header{
 .container {
 	display: flex;
   flex-wrap: wrap;
-  
+  justify-content: center;
 }
 .movie img{
   max-width: 100%;
